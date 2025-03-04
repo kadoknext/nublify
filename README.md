@@ -35,6 +35,14 @@ https://www.youtube.com/results?search_query=Next.js+15+Ecommerce+App+Tutorial+%
 ## REACT
 https://www.youtube.com/watch?v=ERflhpiMc1o
 
+## Snippet
+https://www.youtube.com/shorts/zBU2X3MlOu8
+https://www.youtube.com/watch?v=CyhpRx5lkNI
+
+## EXTENSÃO
+Nextjs snippets
+React and Next.js Snippets
+
 ## CONVERTER IMAGEM
 https://imagem.online-convert.com/pt/converter/avif-para-png
 

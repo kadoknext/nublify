@@ -22,9 +22,11 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className='block w-full max-w-screen px-4 py-3.5 md:py-5 lg:px-8 mx-auto bg-white bg-opacity-90 fixed top-0 shadow-sm backdrop-blur-lg backdrop-saturate-150 z-[9999]'>
-        <div className='container flex px-12 flex-wrap items-center justify-between mx-auto text-slate-800'>
-          <div className='flex items-center gap-x-10'>
+      {/* <nav className='block w-full max-w-screen px-4 py-3.5 md:py-5 lg:px-8 mx-auto bg-white bg-opacity-90 fixed top-0 shadow-sm backdrop-blur-lg backdrop-saturate-150 z-[9999]'> */}
+      <nav className='block w-full max-w-screen px-4 py-3.5 md:py-5 lg:px-8 mx-auto bg-transparent fixed top-0 z-[9999]'>
+        <div className='container flex lg:px-12 flex-wrap items-center justify-between mx-auto text-slate-800 '>
+
+          <div className='flex items-center gap-x-10 bg-transparent lg:bg-white py-3 px-6 rounded-md'>
             <Link
               href='/'
               className='mr-4 flex items-center gap-x-3 cursor-pointer text-blue-600 font-bold text-2xl'
@@ -41,7 +43,7 @@ export default function Navbar() {
                     Products
                   </Link>
 
-                  <ul className='absolute w-6xl hidden group-hover:block rounded -left-43 offset-0 gap-2 shadow-2xl px-2 z-50 bg-white pb-8 transition-all duration-1000  rounded-b-lg'>
+                  <ul className='absolute hidden w-[68.5rem] group-hover:block -left-47.5 offset-0 gap-2 shadow-2xl px-2 z-50 bg-white pb-8 transition-all duration-300 rounded-b-md rounded-r-md'>
                     <li className=''>
                       <div className='grid grid-cols-4 gap-5'>
                         <div className=''>
@@ -249,7 +251,9 @@ export default function Navbar() {
                     Features
                   </Link>
 
-                  <ul className='absolute w-6xl hidden  group-hover:block rounded -left-65 offset-0 gap-2 shadow-2xl px-2 z-50 bg-white pb-8 transition-all duration-300'>
+
+
+                  <ul className='absolute w-[68.5rem] hidden group-hover:block rounded-b-md rounded-r-md -left-70 offset-0 gap-2 shadow-2xl px-2 z-50 bg-white pb-8 transition-all duration-300'>
                     <li className=''>
                       <Segundoli />
                     </li>
@@ -356,7 +360,8 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className='hidden lg:block'>
-            <ul className='flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6'>
+            <ul className='flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2 bg-white opacity-80 py-3 px-2 rounded-md'>
+
               <li>
                 <Link
                   href='#'
@@ -375,6 +380,7 @@ export default function Navbar() {
                   Sign Up
                 </Link>
               </li>
+
             </ul>
           </div>
         </div>

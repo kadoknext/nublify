@@ -5,6 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  
   --color-default: oklch(57.82% 0.2282 260.03);
   --color-default-900: oklch(57.82% 0.2282 260.03 / 90%);
 

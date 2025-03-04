@@ -9,6 +9,7 @@ import Zeus from './_components/vagon'
 export default function Home() {
   return (
     <main className='font-geist-mono'>
+
       <Hero />
       <Content />
       <Feature />
