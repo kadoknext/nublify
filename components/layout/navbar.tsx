@@ -28,14 +28,15 @@ export default function Navbar() {
             <Link
               href='/'
               className='mr-4 flex items-center gap-x-3 cursor-pointer text-blue-600 font-bold text-2xl'
-              // mr-4 flex text-center gap-x-3 cursor-pointer py-1.5 font-bold text-3xl
+            // mr-4 flex text-center gap-x-3 cursor-pointer py-1.5 font-bold text-3xl
             >
               <Image src={imgLogo} alt='Zeus' width={40} height={40} />
               ZEUS
             </Link>
             <div className='hidden lg:block'>
               <ul className='flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6'>
-                <li className='relative group'>
+
+                <li className='relative group font-bold transition-all duration-300'>
                   <Link href='#' className=''>
                     Products
                   </Link>
@@ -97,8 +98,7 @@ export default function Navbar() {
                         </div>
 
 
-
-
+                        {/* ------------------------------------------------------------------------------------ */}
                         <div>
                           <div>
                             <Link href='/23'>
@@ -244,7 +244,7 @@ export default function Navbar() {
                   </ul>
                 </li>
 
-                <li className='relative group transition-all duration-1000'>
+                <li className='relative group  font-bold transition-all duration-300'>
                   <Link href='#' className=''>
                     Features
                   </Link>
@@ -255,7 +255,16 @@ export default function Navbar() {
                     </li>
                   </ul>
                 </li>
-
+                <li className='relative group font-bold transition-all duration-300'>
+                  <Link href='#' className=''>
+                    Use Cases
+                  </Link>
+                </li>
+                <li className='relative group font-bold transition-all duration-300'>
+                  <Link href='#' className=''>
+                    Resources
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
