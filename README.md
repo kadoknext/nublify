@@ -1,5 +1,43 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## VIDEOS
+
+## CONFIGURAR ESLint E PRATTIER
+https://www.youtube.com/watch?v=cbSHUVSUFgY
+https://github.com/rocketseat/eslint-config-rocketseat
+
+## Metadata
+
+https://www.youtube.com/watch?v=1OqftoKO2V0
+
+https://www.youtube.com/watch?v=OldUurB0Wx8
+
+https://www.youtube.com/watch?v=M1_2fGI8EwM
+
+## DOG
+
+https://www.youtube.com/watch?v=5tpX4iTdg5A&t=4526s
+
+https://www.youtube.com/watch?v=e6FigV2fLC8&t=972s
+
+## SaaS
+
+https://www.youtube.com/watch?v=O78ieB37-lk&t=23s
+
+## IDIOMAS
+
+https://www.youtube.com/watch?v=QxTGuTFa-NA
+
+## E-COMMERCE
+
+https://www.youtube.com/results?search_query=Next.js+15+Ecommerce+App+Tutorial+%7C+Build+a+Full+Stack+Ecommerce+Website
+
+## REACT
+https://www.youtube.com/watch?v=ERflhpiMc1o
+
+## CONVERTER IMAGEM
+https://imagem.online-convert.com/pt/converter/avif-para-png
+
 ## Getting Started
 
 First, run the development server:
