@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export function Content() {
   return (
-    <section className='relative overflow-hidden px-4 py-20 md:px-20 text-center md:text-left bg-[#eeefef]/70'>
+    <section className='relative overflow-hidden px-4 py-20 md:px-20 text-center md:text-left bg-linear-to-b from-black/20 to-black/5'>
       <div className='container mx-auto'>
         {/* <div className='mb-18'> */}
         <div className='flex flex-col text-start items-center justify-center mb-18'>
