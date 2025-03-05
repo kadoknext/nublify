@@ -28,6 +28,9 @@ https://www.youtube.com/watch?v=O78ieB37-lk&t=23s
 
 https://www.youtube.com/watch?v=QxTGuTFa-NA
 
+## ICONES LUCIDE
+https://lucide.dev/icons/
+
 ## E-COMMERCE
 
 https://www.youtube.com/results?search_query=Next.js+15+Ecommerce+App+Tutorial+%7C+Build+a+Full+Stack+Ecommerce+Website
@@ -45,6 +48,9 @@ React and Next.js Snippets
 
 ## CONVERTER IMAGEM
 https://imagem.online-convert.com/pt/converter/avif-para-png
+
+## Efeitos AOS
+https://michalsnik.github.io/aos/
 
 ## Getting Started
 

@@ -108,7 +108,8 @@ export default function Footer() {
 
       </footer>
       <div className="flex items-center justify-center py-4 border-t border-gray-900">
-        <p>Copyright © 2025 Zeus Interactive Streaming Protocol</p>
+        <p>Copyright © {new Date().getFullYear()} Zeus Interactive Streaming Protocol</p>
+       
       </div>
     </div>
   )

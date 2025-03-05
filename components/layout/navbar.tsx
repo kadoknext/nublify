@@ -360,7 +360,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className='hidden lg:block'>
-            <ul className='flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2 bg-white opacity-80 py-3 px-2 rounded-md'>
+            <ul className='flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2 bg-white opacity-80 py-3 px-1 rounded-md'>
 
               <li>
                 <Link

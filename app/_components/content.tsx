@@ -7,9 +7,10 @@ import Link from 'next/link'
 
 export function Content() {
   return (
-    <section className='relative overflow-hidden px-4 py-20 md:px-20 text-center md:text-left bg-[#eeefef]/80'>
+    <section className='relative overflow-hidden px-4 py-20 md:px-20 text-center md:text-left bg-[#eeefef]/70'>
       <div className='container mx-auto'>
-        <div className='mb-18'>
+        {/* <div className='mb-18'> */}
+        <div className='flex flex-col text-start items-center justify-center mb-18'>
           <h1 className='text-5xl font-semibold mb-6'>
             One solution for all your creative needs
           </h1>
