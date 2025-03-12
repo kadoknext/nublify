@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export function Hero() {
   return (
-    // <section className='relative overflow-hidden px-4 md:px-20 text-center md:text-left pt-30 pb-10 bg-conic-180 from-indigo-300 via-indigo-50 to-indigo-300'>
-    <section className='relative overflow-hidden px-4 md:px-20 text-center md:text-left pt-30 pb-10 bg-linear-to-r from-sky-200 to-sky-100'>
+    <section className='relative overflow-hidden px-4 md:px-20 text-center md:text-left pt-30 pb-10 bg-conic-180 from-indigo-300 via-indigo-50 to-indigo-300'>
+     {/* <section className='relative overflow-hidden px-4 md:px-20 text-center md:text-left pt-30 pb-10 bg-linear-to-r from-sky-200 to-sky-100'> */}
       <div className='container mx-auto'>
         <article className='grid grid-cols-1 md:grid-cols-2 gap-10'>
           <div className='space-y-6'>

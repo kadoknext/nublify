@@ -7,7 +7,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoYoutube } from "react-icons/io";
 export default function Footer() {
   return (
-    <div className=" text-sm text-gray-400 bg-black">
+    <div className="text-sm text-gray-400 bg-black">
       <footer className='relative overflow-hidden px-4 md:px-20 text-center md:text-left py-15'>
         <div className='container mx-auto'>
           <article className="grid grid-cols-1 md:grid-cols-5 gap-10">
